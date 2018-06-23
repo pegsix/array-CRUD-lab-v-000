@@ -15,14 +15,12 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  "Kelis" = Ladies.pop
+   Ladies.pop
   end
-end
 
 def remove_element_from_start_of_array(array)
-  "Mary J. Blige"= Ladies.shift
+   Ladies.shift
   end
-end
 
 def retrieve_element_from_index(array, index_number)
   Ladies(2)

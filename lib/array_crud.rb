@@ -16,11 +16,13 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
+  ladies = ["Cardi B", "Beyonce", "Solange", "SZA"]
   "Kelis" = ladies.pop
 end
 
 def remove_element_from_start_of_array(array)
-  "Janet Jackson"= ladies.shift
+  ladies = ["Mary J. Blige", Cardi B", "Beyonce", "Solange", "SZA"]
+  "Mary J. Blige"= ladies.shift
 end
 
 def retrieve_element_from_index(array, index_number)

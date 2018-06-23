@@ -16,7 +16,7 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  ladies = ["Cardi B", "Beyonce", "Solange", "SZA"]
+  ladies = ["Cardi B", "Beyonce", "Solange", "SZA", "Kelis"]
   "Kelis" = ladies.pop
 end
 

@@ -3,7 +3,7 @@ def create_an_empty_array
 end
 
 def create_an_array
-  ladies = [Cardi B, Beyonce, Solange, SZA]
+  Ladies = ["Cardi B", "Beyonce", "Solange", "SZA"]
 end
 
 def add_element_to_end_of_array(array, element)

@@ -7,29 +7,29 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  Ladies << "Kelis"
+  array << element
 end
 
 def add_element_to_start_of_array(array, element)
-  Ladies.unshift("Mary J. Blige")
+  array.unshift(element)
 end
 
 def remove_element_from_end_of_array(array)
-   Ladies.pop
+   array.pop
   end
 
 def remove_element_from_start_of_array(array)
-   Ladies.shift
+   array.shift
   end
 
 def retrieve_element_from_index(array, index_number)
-  Ladies(2)
+  array(index_number)
 end
 
 def retrieve_first_element_from_array(array)
-  Ladies.first
+  array.first
 end
 
 def retrieve_last_element_from_array(array)
-  Ladies.last
+  array.last
 end

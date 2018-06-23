@@ -5,7 +5,6 @@ end
 def create_an_array
   Ladies = ["Cardi B", "Beyonce", "Solange", "SZA"]
 end
-end
 
 def add_element_to_end_of_array(array, element)
   Ladies << "Kelis"
